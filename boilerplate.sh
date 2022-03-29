@@ -15,7 +15,7 @@ rm -rf .git
 git init
 
 [ $package_type != "yarn" ] && {
-  npm ci
+  npm install
   exit 0
 } || {
   yarn
